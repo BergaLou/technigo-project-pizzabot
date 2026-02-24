@@ -16,3 +16,5 @@ If I had more time, I would have liked to:
 \*\*\*Make it possible to order multiple items at once and choose between different sizes.
 
 ## View it live
+
+https://nilsbergspizzeria.netlify.app/
