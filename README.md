@@ -17,4 +17,4 @@ If I had more time, I would have liked to:
 
 ## View it live
 
-https://nilsbergspizzeria.netlify.app/
+[Click here to visit Nilsbergs Pizzeria!](https://nilsbergspizzeria.netlify.app/)
