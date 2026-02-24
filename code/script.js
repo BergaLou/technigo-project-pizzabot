@@ -106,8 +106,15 @@ if (saladType === "1") {
 }
 
 // Step 4 - Age
+let userAge = "";
+userAge = prompt("Is this food for a child or an adult? Please enter your age in numbers:.");
 
-const userAge = prompt("Is this food for a child or an adult? Please enter your age in numbers:.");
+while (userAge === "" || isNaN(userAge)) {
+  userAge = prompt("please enter your age in numbers:");
+  if (userAge === "" || isNaN(userAge)) {
+    alert("Invalid input. Please enter a valid age in numbers.");
+  }
+}
 
 let price = ""
 let size = ""
