@@ -1,5 +1,7 @@
 ## Nilsbergs Pizzeria - JavaScript Project 🍕
 
+https://nilsbergspizzeria.netlify.app/
+
 _Project Description/_
 I have created a "pizza bot" using JavaScript. It works like a small chat-robot where you can order food. You start by entering your name, then you choose between pizza, pasta, or salad, and finally, you pick the specific variety you want.
 

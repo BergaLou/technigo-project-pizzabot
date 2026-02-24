@@ -24,7 +24,7 @@ if (foodChoice !== "1" && foodChoice !== "2" && foodChoice !== "3") {
 }
 
 // Step 3 - Subtype choice
-
+//Pizza choice
 if (foodChoice === "1") {
   alert("Great choice! Let's customize your pizza.");
     
@@ -52,6 +52,7 @@ if (pizzaType === "1") {
   }
 } 
 
+//Pasta choice
 } else if (foodChoice === "2") {
   alert("Pasta it is! Let's choose your sauce.");
 
@@ -78,7 +79,7 @@ if (pastaType === "1") {
   }
 }
 
-
+//Salad choice
 } else if (foodChoice === "3") { 
   alert("Salad, healthy choice! Let's pick your toppings.");
 
@@ -106,6 +107,7 @@ if (saladType === "1") {
 }
 
 // Step 4 - Age
+//check if the user is ordering for a child or an adult and set the price accordingly
 let userAge = "";
 userAge = prompt("Is this food for a child or an adult? Please enter your age in numbers:.");
 
@@ -130,14 +132,23 @@ if (userAge >= 18) {
 alert(`${size} ${subFoodName} will be prepared for you. The price is ${price}.`);
 
 // Step 5 - Order confirmation
-// Your code goes here
-const confirmation = prompt(`One ${size} ${subFoodName} for ${price}. 
+// Confirm the order with the user and show a final message based on their choice
+let confirmation = ""; 
+while (confirmation !== "1" && confirmation !== "2") {
+  confirmation = prompt(`One ${size} ${subFoodName} for ${price}. 
   Do you want confirm your order?
   1. Yes
   2. No`);
+  
+  // If the user types something else, we show an error message and ask again
+  if (confirmation !== "1" && confirmation !== "2") {
+    alert("Invalid choice. Please enter 1 for Yes or 2 for No.");
+  }
+}
 
-if (confirmation === "1") {
+  // Final messages based on the user's confirmed choice
+  if (confirmation === "1") {
   alert(`Thank you for your order, ${userName}! Your meal is being prepared.`); 
-  } else if (confirmation === "2") {
+  } else  {
   alert(`Order cancelled. Welcome back another time, ${userName}!`);
 }
