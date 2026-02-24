@@ -6,7 +6,12 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: #0026ff;
+  background: #000000;
+  background-image: url(assets/stensugn.jpg);
+  background-size: cover;
+  background-position: 40% 70%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   display: flex;
   justify-content: center;
