@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "technigo-project-pizzabot",
+  "name": "nilsbergs",
   "compatibility_date": "2026-05-06",
   "observability": {
     "enabled": true
